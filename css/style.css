@@ -79,6 +79,20 @@
     text-align: center;
 }
 .aline{
+    margin: 30px;
     display: flex;
     justify-content: space-between;
+}
+
+
+
+
+/* Portfolio styling section */
+#portfolio h1{
+    text-align: center;
+}
+.folio{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
 }

@@ -96,3 +96,8 @@
     display: flex;
     justify-content: space-around;
 }
+
+/* CONTACT US STYLING SECTION */
+#contact h1{
+    text-align: center;
+}

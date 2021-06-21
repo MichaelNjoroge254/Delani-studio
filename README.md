@@ -1,10 +1,13 @@
 # Delani-studio
 Delani studio is a landing page of a fictional studio
+
 #### By **Michael Njoroge**
+
 ## Description
 <img scr="./Pictures/dlan.png">
 Delani studio is a team of committed collaborators.All aspects of our softeware development process are intergrated,interactive and agile.
 Our approach unifies design, development and product management to create exceptional products.
+
 ## Setup/Installation Requirements
 * This is a great place
 * to list setup instructions
@@ -12,12 +15,16 @@ Our approach unifies design, development and product management to create except
 * easy-to-understand
 * format
 Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?
+
 ## Known Bugs
 Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. 
+
 ## Technologies Used
 HTML, CSS, JQUERY, BOOTSTRAP
+
 ## Support and contact details
 Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.
+
 ### License
 MIT License
 

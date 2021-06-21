@@ -87,8 +87,10 @@ html{
     display: flex;
     justify-content: space-between;
 }
-
-
+h6{
+    text-align: center;
+}
+.aline
 
 
 /* Portfolio styling section */

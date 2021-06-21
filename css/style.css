@@ -12,7 +12,7 @@ html{
     /* Welcome section styling */
 }
 .background{
-    background-image: url("h_img.jpg");
+    background-image: url("../images/backgrounds/h_img.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -60,7 +60,7 @@ html{
 
 /* Services section styling */
 .services{
-    background-image: url("s_image.jpg");
+    background-image: url("../images/backgrounds/s_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -280,7 +280,7 @@ h6{
 
 /* CONTACT US STYLING SECTION */
 #contact{
-    background-image: url("c_image.jpg");
+    background-image: url("../images/backgrounds/c_image.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

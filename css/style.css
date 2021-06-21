@@ -90,7 +90,13 @@ html{
 h6{
     text-align: center;
 }
-.aline
+.design {
+    display: block;
+    text-align: center;    
+}
+.design img{
+    margin: 20px;
+}
 
 
 /* Portfolio styling section */

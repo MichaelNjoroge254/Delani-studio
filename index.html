@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <title>Delani Studio</title>
 </head>
 
@@ -66,12 +66,12 @@
         <h1>WHAT WE DO</h1>
         <div class="row">
             <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <div class="aline">
-                <div class="design">
-                    <img src="/images/services_icons/design_icon.png" alt="">
-                    <h6>DESIGN</h6>
+                <div class="aline">
+                    <div class="design">
+                        <img src="/images/services_icons/design_icon.png" alt="">
+                        <h6>DESIGN</h6>
+                    </div>
                 </div>
-            </div>
             </div>
             <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
                 <div class="aline">
@@ -80,55 +80,57 @@
                         <h6>DEVELOPMENT</h6>
                     </div>
                 </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <div class="aline">
+                    <div class="design">
+                        <img src="/images/services_icons/product_icon.png" alt="">
+                        <h6>PRODUCT MANAGEMENT</h6>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <div class="aline">
-                        <div class="design">
-                            <img src="/images/services_icons/product_icon.png" alt="">
-                            <h6>PRODUCT MANAGEMENT</h6>
-                        </div>
-                    </div>
-                    </div>
             </div>
         </div>
+    </div>
     </div>
     </div>
     </div>
 
     <!-- Portfolio section -->
-    <div class="container" id="portfolio">
-        <h1>PORTFOLIO</h1>
-        <div class="folio">
-            <div class="dark">
-                <img src="/images/portfolio/work4.jpg" alt="">
+    <section id="portfolio" class="portfolio">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Portfolio</h2>
+          </div>
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-img"><img src="images/portfolio/work4.jpg" class="img-fluid" alt=""></div>
             </div>
-            <div class="ario">
-                <img src="/images/portfolio/work3.jpg" alt="">
+            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-img"><img src="images/portfolio/work3.jpg" class="img-fluid" alt=""></div>
             </div>
-            <div class="yellow">
-                <img src="/images/portfolio/work2.jpg" alt="">
+            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-img"><img src="images/portfolio/work2.jpg" class="img-fluid" alt=""></div>
             </div>
-            <div class="colr">
-                <img src="/images/portfolio/work1.jpg" alt="">
+            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-img"><img src="images/portfolio/work1.jpg" class="img-fluid" alt=""></div>
             </div>
+            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-img"><img src="images/portfolio/work5.jpg" class="img-fluid" alt=""></div>
+            </div>
+            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-img"><img src="images/portfolio/work6.jpg" class="img-fluid" alt=""></div>
+            </div>
+            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-img"><img src="images/portfolio/work7.jpg" class="img-fluid" alt=""></div>
+            </div>
+            <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-img"><img src="images/portfolio/work8.jpg" class="img-fluid" alt=""></div>
+            </div>
+          </div>
+  
         </div>
-    </div>
-
-    <div class="folio">
-        <div class="day">
-            <img src="/images/portfolio/work5.jpg" alt="">
-        </div>
-        <div class="calc">
-            <img src="/images/portfolio/work6.jpg" alt="">
-        </div>
-        <div class="mock">
-            <img src="/images/portfolio/work7.jpg" alt="">
-        </div>
-        <div class="bailey">
-            <img src="/images/portfolio/work8.jpg" alt="">
-        </div>
-    </div>
-
+      </section>
     <!-- Contact section  -->
 
     <div class="contact" id="contact">
@@ -146,7 +148,7 @@
                 <div class="form-group">
                     <textarea class="form-control" rows="8" id="comment" placeholder="Your message here...."></textarea>
                 </div>
-                <!-- <button type="submit" class="btn btn-primary col-md-1">Submit</button> -->
+                <button type="submit" class="btn btn-primary col-md-1" align-item-center>Submit</button>
             </form>
         </div>
     </div>
@@ -164,7 +166,7 @@
         <p>DELANI STUDIO</p>
         <p>2019</p>
     </footer>
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+    <!-- <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
         data-dojo-config="usePlainJson: true, isDebug: false"></script>
     <script type="text/javascript">
         window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
@@ -175,7 +177,7 @@
                 "uniqueMethods": true
             })
         })
-    </script>
+    </script> -->
     <script src="js/jquery-3.4.1.js"></script>
     <script src="script.js"></script>
 </body>

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+html{
+  scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -88,16 +92,61 @@
 
 
 /* Portfolio styling section */
+
 #portfolio h1{
     text-align: center;
 }
 .folio{
-    padding: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 30px;
 }
 
 /* CONTACT US STYLING SECTION */
+#contact{
+    background-image: url("/images/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
 #contact h1{
     text-align: center;
+    color: #fff;
 }
+
+input[type=text],input[type=email],#comment{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+  }
+  
+  .form-control::-webkit-input-placeholder { 
+    color: white; 
+  }
+  #MERGE1{
+    width: 30%;
+    margin-left: 18%;
+    margin-right: 30px;
+  }
+  #MERGE0{
+    width: 30%;
+  }
+  #comment{
+    margin-left: 20%;
+    width: 60%;
+  }
+  button{
+    margin-left: 20%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+  footer{
+    text-align: center;
+    padding-top: 30px;
+    font-family: cursive;
+  }
+  footer p{
+    margin-top: 10px;
+  }   
